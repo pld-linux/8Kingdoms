@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 8 Kingdoms is a 3D turn-based fantasy strategic game in which players
 become kings, build their empires and conquer enemy kingdoms.
 
-%description -l pl.UTF-8
+%description -l hu.UTF-8
 8 Kingdoms egy 3D-s körökre osztott stratégiai játék, amelyben a
 játékosok királyokká válnak, felépítik a hatalmukat és meghóditják az
 ellenséges birodalmakat.
