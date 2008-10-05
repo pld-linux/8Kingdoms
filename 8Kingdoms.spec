@@ -1,5 +1,6 @@
 Summary:	8 Kingdoms is a 3D turn-based fantasy strategic game
 Summary(hu.UTF-8):	8 Kingdoms egy 3D-s körökre osztott stratégiai játék
+Summary(pl.UTF-8):	Strategiczna turowa gra 3D w świecie fantasy
 Name:		8Kingdoms
 Version:	1.1.0
 Release:	0.1
@@ -26,6 +27,11 @@ become kings, build their empires and conquer enemy kingdoms.
 8 Kingdoms egy 3D-s körökre osztott stratégiai játék, amelyben a
 játékosok királyokká válnak, felépítik a hatalmukat és meghóditják az
 ellenséges birodalmakat.
+
+%description -l pl.UTF-8
+8 Kingdoms jest turową strategiczną grą w świecie fantasy z grafiką
+3D. Gracze wcielają się w królów, budują swoje imperia i podbijają
+wrogie królestwa.
 
 %prep
 %setup -q
@@ -95,7 +101,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/8Kingdoms/res/bitmap/buildings
 %dir %{_datadir}/8Kingdoms/res/sounds
 
-%{_datadir}/8Kingdoms/res//*
+%{_datadir}/8Kingdoms/res/*
 %{_datadir}/8Kingdoms/res/xml/*
 %{_datadir}/8Kingdoms/res/xml/languages/*
 %{_datadir}/8Kingdoms/res/xml/maps/*
