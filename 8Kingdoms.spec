@@ -15,7 +15,7 @@ BuildRequires:	OpenGL-GLU-devel
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	expat-devel
-BuildRequires:	sed > 4.0
+BuildRequires:	sed >= 4.0
 BuildRequires:	tcl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
